@@ -41,7 +41,16 @@ To run this application on Replit, follow these steps:
      pip install -r requirements.txt
      ```
 
-4. **Run the Application**:
+4. **Set Up Environment Variables**:
+
+   - Before running the application, you need to set up the following secret keys as environment variables in Replit:
+     - `OPENAI_API_KEY`: Your OpenAI API key for accessing the ChatGPT API.
+     - `EMAIL_ADDRESS`: The email address used for sending user credentials.
+     - `EMAIL_PASSWORD`: The password for the email account specified above.
+
+   You can set these environment variables in Replit by navigating to the "Secrets" section (the lock icon) in the sidebar and adding them there.
+
+5. **Run the Application**:
    - Start the application by running:
      ```bash
      python main.py
